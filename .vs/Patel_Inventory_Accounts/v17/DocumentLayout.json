@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Peon\\source\\repos\\Patel_Inventory_Accounts\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{342419AA-655B-44B9-BA68-B27C9C9EB6A5}|Patel_Inventory_Accounts\\Patel_Inventory_Accounts.csproj|c:\\users\\peon\\source\\repos\\patel_inventory_accounts\\patel_inventory_accounts\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342419AA-655B-44B9-BA68-B27C9C9EB6A5}|Patel_Inventory_Accounts\\Patel_Inventory_Accounts.csproj|solutionrelative:patel_inventory_accounts\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342419AA-655B-44B9-BA68-B27C9C9EB6A5}|Patel_Inventory_Accounts\\Patel_Inventory_Accounts.csproj|C:\\Users\\Peon\\source\\repos\\Patel_Inventory_Accounts\\patel_inventory_accounts\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342419AA-655B-44B9-BA68-B27C9C9EB6A5}|Patel_Inventory_Accounts\\Patel_Inventory_Accounts.csproj|solutionrelative:patel_inventory_accounts\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342419AA-655B-44B9-BA68-B27C9C9EB6A5}|Patel_Inventory_Accounts\\Patel_Inventory_Accounts.csproj|C:\\Users\\Peon\\source\\repos\\Patel_Inventory_Accounts\\patel_inventory_accounts\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{342419AA-655B-44B9-BA68-B27C9C9EB6A5}|Patel_Inventory_Accounts\\Patel_Inventory_Accounts.csproj|solutionrelative:patel_inventory_accounts\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342419AA-655B-44B9-BA68-B27C9C9EB6A5}|Patel_Inventory_Accounts\\Patel_Inventory_Accounts.csproj|C:\\Users\\Peon\\source\\repos\\Patel_Inventory_Accounts\\patel_inventory_accounts\\views\\home\\getbranchcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{342419AA-655B-44B9-BA68-B27C9C9EB6A5}|Patel_Inventory_Accounts\\Patel_Inventory_Accounts.csproj|solutionrelative:patel_inventory_accounts\\views\\home\\getbranchcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342419AA-655B-44B9-BA68-B27C9C9EB6A5}|Patel_Inventory_Accounts\\Patel_Inventory_Accounts.csproj|C:\\Users\\Peon\\source\\repos\\Patel_Inventory_Accounts\\patel_inventory_accounts\\db\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342419AA-655B-44B9-BA68-B27C9C9EB6A5}|Patel_Inventory_Accounts\\Patel_Inventory_Accounts.csproj|solutionrelative:patel_inventory_accounts\\db\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342419AA-655B-44B9-BA68-B27C9C9EB6A5}|Patel_Inventory_Accounts\\Patel_Inventory_Accounts.csproj|C:\\Users\\Peon\\source\\repos\\Patel_Inventory_Accounts\\patel_inventory_accounts\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{342419AA-655B-44B9-BA68-B27C9C9EB6A5}|Patel_Inventory_Accounts\\Patel_Inventory_Accounts.csproj|solutionrelative:patel_inventory_accounts\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Peon\\source\\repos\\Patel_Inventory_Accounts\\Patel_Inventory_Accounts\\Program.cs",
+              "RelativeDocumentMoniker": "Patel_Inventory_Accounts\\Program.cs",
+              "ToolTip": "C:\\Users\\Peon\\source\\repos\\Patel_Inventory_Accounts\\Patel_Inventory_Accounts\\Program.cs",
+              "RelativeToolTip": "Patel_Inventory_Accounts\\Program.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAACEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T21:33:19.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetBranchCode.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peon\\source\\repos\\Patel_Inventory_Accounts\\Patel_Inventory_Accounts\\Views\\Home\\GetBranchCode.cshtml",
+              "RelativeDocumentMoniker": "Patel_Inventory_Accounts\\Views\\Home\\GetBranchCode.cshtml",
+              "ToolTip": "C:\\Users\\Peon\\source\\repos\\Patel_Inventory_Accounts\\Patel_Inventory_Accounts\\Views\\Home\\GetBranchCode.cshtml",
+              "RelativeToolTip": "Patel_Inventory_Accounts\\Views\\Home\\GetBranchCode.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T21:47:50.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Peon\\source\\repos\\Patel_Inventory_Accounts\\Patel_Inventory_Accounts\\DB\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "Patel_Inventory_Accounts\\DB\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\Peon\\source\\repos\\Patel_Inventory_Accounts\\Patel_Inventory_Accounts\\DB\\MyDbContext.cs",
+              "RelativeToolTip": "Patel_Inventory_Accounts\\DB\\MyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T21:29:47.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Peon\\source\\repos\\Patel_Inventory_Accounts\\Patel_Inventory_Accounts\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Patel_Inventory_Accounts\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Peon\\source\\repos\\Patel_Inventory_Accounts\\Patel_Inventory_Accounts\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Patel_Inventory_Accounts\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T20:51:57.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peon\\source\\repos\\Patel_Inventory_Accounts\\Patel_Inventory_Accounts\\Views\\Home\\login.cshtml",
+              "RelativeDocumentMoniker": "Patel_Inventory_Accounts\\Views\\Home\\login.cshtml",
+              "ToolTip": "C:\\Users\\Peon\\source\\repos\\Patel_Inventory_Accounts\\Patel_Inventory_Accounts\\Views\\Home\\login.cshtml",
+              "RelativeToolTip": "Patel_Inventory_Accounts\\Views\\Home\\login.cshtml",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAADUAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T20:52:46.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peon\\source\\repos\\Patel_Inventory_Accounts\\Patel_Inventory_Accounts\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Patel_Inventory_Accounts\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Peon\\source\\repos\\Patel_Inventory_Accounts\\Patel_Inventory_Accounts\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Patel_Inventory_Accounts\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-15T20:54:53.494Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

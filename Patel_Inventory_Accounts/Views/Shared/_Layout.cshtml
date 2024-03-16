@@ -1,0 +1,367 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Patel_Inventory_Accounts</title>
+    <link rel="stylesheet" href="~/vendors/mdi/css/materialdesignicons.min.css" />
+    <link rel="stylesheet" href="~/vendors/base/vendor.bundle.base.css" />
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="~/css/style.css" />
+    <!-- endinject -->
+    <link rel="shortcut icon" href="~/images/favicon.png" />
+</head>
+<body>
+	<div class="container-scroller">
+		
+		<!-- partial:partials/_horizontal-navbar.html -->
+		<div class="horizontal-menu">
+			<nav class="navbar top-navbar col-lg-12 col-12 p-0">
+				<div class="container-fluid">
+					<div class="navbar-menu-wrapper d-flex align-items-center justify-content-between">
+						<ul class="navbar-nav navbar-nav-left">
+							<li class="nav-item ms-0 me-5 d-lg-flex d-none">
+								<a href="#" class="nav-link horizontal-nav-left-menu"><i class="mdi mdi-format-list-bulleted"></i></a>
+							</li>
+							
+							
+						</ul>
+						<div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+							<a class="navbar-brand brand-logo" href="index.html"><img src="images/logo.svg" alt="logo" /></a>
+							<a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-mini.svg" alt="logo" /></a>
+						</div>
+						<ul class="navbar-nav navbar-nav-right">
+							
+							<li class="nav-item nav-profile dropdown">
+								<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" id="profileDropdown">
+									<span class="nav-profile-name">Johnson</span>
+									<span class="online-status"></span>
+									<img src="images/faces/face28.png" alt="profile" />
+								</a>
+								<div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+									<a class="dropdown-item">
+										<i class="mdi mdi-settings text-primary"></i>
+										Settings
+									</a>
+									<a class="dropdown-item">
+										<i class="mdi mdi-logout text-primary"></i>
+										Logout
+									</a>
+								</div>
+							</li>
+						</ul>
+						<button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="horizontal-menu-toggle">
+							<span class="mdi mdi-menu"></span>
+						</button>
+					</div>
+				</div>
+			</nav>
+			<nav class="bottom-navbar">
+				<div class="container">
+                    <ul class="nav page-navigation">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                <i class="mdi mdi-file-document-box menu-icon"></i>
+                                <span class="menu-title">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="mdi mdi-cube-outline menu-icon"></i>
+                                <span class="menu-title">Parameters</span>
+                                <i class="menu-arrow"></i>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/buttons.html">Product Category</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Packing Unit</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Currency List</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Damages Type</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Shipping port</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="mdi mdi-chart-areaspline menu-icon"></i>
+                                <span class="menu-title">
+                                    Master Data <br />
+                                    Entry
+                                </span>
+                                <i class="menu-arrow"></i>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/buttons.html">Client Profile</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Vendor Profile</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Product Information</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Product Opening Stock</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="mdi mdi-finance menu-icon"></i>
+                                <span class="menu-title">
+                                    Transactions Module <br />
+                                    (Inventory)
+                                </span>
+                                <i class="menu-arrow"></i>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/buttons.html">Purchase Order Receive From Client</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Stock In Store (Import)</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Stock In Store (Local Purchase)</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Sale (Local)</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Sale (Export)</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="mdi mdi-grid menu-icon"></i>
+                                <span class="menu-title">
+                                    Transactions Module <br />
+                                    (Accounts)
+                                </span>
+                                <i class="menu-arrow"></i>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/buttons.html">Chart of Account</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Bank Payment Voucher</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Cash Payment Voucher</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Bank Receipt Voucher</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Cash Receipt Voucher</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Journal Voucher</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Bill Wise Credit Note</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Bill Wise Debit Note</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="mdi mdi-emoticon menu-icon"></i>
+                                <span class="menu-title">
+                                    User <br />
+                                    Management
+                                </span>
+                                <i class="menu-arrow"></i>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/buttons.html">Create User</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">User Rights</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Login Company</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="mdi mdi-codepen menu-icon"></i>
+                                <span class="menu-title">
+                                    Reports <br />
+                                    Accounts
+                                </span>
+                                <i class="menu-arrow"></i>
+                            </a>
+                            <div class="submenu">
+                                <ul class="submenu-item">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/samples/login.html">Stock Position</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/samples/login-2.html">Profit Trending of Import</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/samples/register.html">Profit Trending of Export</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/samples/register-2.html">Import Costing</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/samples/lock-screen.html">Import Wise Profit</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/samples/lock-screen.html">Waste Report</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/samples/lock-screen.html">Aging Report</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/samples/lock-screen.html">Trending Report of Import/Sale</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/samples/lock-screen.html">Stock/ Waste Consumed Report</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/samples/lock-screen.html">Pending L.C.</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/samples/lock-screen.html">Short Expiry L.C.</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/samples/lock-screen.html">Pending Shipments</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/samples/lock-screen.html">Pending Client Orders</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/samples/lock-screen.html">Purchase Register</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/samples/lock-screen.html">Sale Register</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/samples/lock-screen.html">Item Ledger</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="mdi mdi-file-document-box-outline menu-icon"></i>
+                                <span class="menu-title">
+                                    Reports <br />
+                                    Accounts
+                                </span>
+                            </a>
+                            <div class="submenu">
+                                <ul>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/buttons.html">Payment Voucher</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Receipt Voucher</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Cash Book</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Bank Book</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Head Ledger</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Cash Flow Statement</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Trial Balance</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Income Statement</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="pages/ui-features/typography.html">Balance Sheet</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+				</div>
+			</nav>
+		</div>
+		<!-- partial -->
+		<div class="container-fluid page-body-wrapper">
+			<div class="main-panel">
+				@RenderBody()
+				<!-- content-wrapper ends -->
+				<!-- partial:partials/_footer.html -->
+				
+				<!-- partial -->
+			</div>
+@* 			<footer class="footer">
+				<div class="footer-wrap">
+					<div class="d-sm-flex justify-content-center justify-content-sm-between">
+						<span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © <a href="https://www.bootstrapdash.com/" target="_blank">bootstrapdash.com </a>2021</span>
+						<span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Only the best <a href="https://www.bootstrapdash.com/" target="_blank"> Bootstrap dashboard </a> templates</span>
+					</div>
+				</div>
+			</footer> *@
+			<!-- main-panel ends -->
+		</div>
+		<!-- page-body-wrapper ends -->
+	</div>
+
+	
+          
+       
+
+    <script src="~/vendors/base/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page-->
+    <!-- End plugin js for this page-->
+    <!-- inject:js -->
+    <script src="~/js/template.js"></script>
+    <!-- endinject -->
+    <!-- plugin js for this page -->
+    <!-- End plugin js for this page -->
+    <script src="~/vendors/chart.js/Chart.min.js"></script>
+    <script src="~/vendors/progressbar.js/progressbar.min.js"></script>
+    <script src="~/vendors/chartjs-plugin-datalabels/chartjs-plugin-datalabels.js"></script>
+    <script src="~/vendors/justgage/raphael-2.1.4.min.js"></script>
+    <script src="~/vendors/justgage/justgage.js"></script>
+    <script src="j~/s/jquery.cookie.js" type="text/javascript"></script>
+    <!-- Custom js for this page-->
+    <script src="~/js/dashboard.js"></script>
+    @* <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script> *@
+    @* @await RenderSectionAsync("Scripts", required: false) *@
+</body>
+</html>

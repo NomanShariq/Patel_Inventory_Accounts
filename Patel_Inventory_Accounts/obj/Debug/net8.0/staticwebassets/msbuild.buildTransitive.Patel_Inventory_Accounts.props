@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Patel_Inventory_Accounts.props" />
+</Project>
